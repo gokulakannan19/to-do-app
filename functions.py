@@ -7,7 +7,7 @@ def get_todos(filepath=FILEPATH):
     :return:
     """
     with open(filepath, "r") as file_local:
-        todos_local = file_local.readlines()
+        todos_local = [todo.strip("\n") for todo in file_local.readlines()]
     return todos_local
 
 
@@ -19,5 +19,6 @@ def write_todos(todo_args, filepath=FILEPATH):
     :return:
     """
     with open(filepath, "w") as file_local:
+        todo_args = [todo+"\n" for todo in todo_args]
         file_local.writelines(todo_args)
 
