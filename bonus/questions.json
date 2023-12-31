@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Color of Rose?",
+        "alternatives": ["blue", "rose", "red"],
+        "correct_answer": 3
+    },
+    {
+        "question": "Tell a pet?",
+        "alternatives": ["cat", "tiger", "snake"],
+        "correct_answer": 1
+    }
+]
