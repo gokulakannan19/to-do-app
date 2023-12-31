@@ -2,10 +2,7 @@ Master Python
 Learn Python
 Implement Add and Edit Buttons
 Add button logic
-Why n at end
 modify get todo
 modify write todo
-remove n at the end
 Eat well
 Get up early
-sleep well
